@@ -1,0 +1,425 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+/*Start NavPar*/
+
+.nav1 {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    height: 80px;
+    width: 100%;
+    box-shadow: 0px 1px 3px #ccc;
+    padding: 8px 50px 0px 50px;
+    /* position: sticky; */
+    top: 0;
+    z-index: 3;
+}
+
+
+/* Start left NavPar*/
+
+.left_nav {
+    display: flex;
+    position: relative;
+}
+
+.fa-search {
+    color: rgb(176, 172, 172);
+    position: absolute;
+    font-size: 15px;
+    left: 15px;
+    top: 12px;
+}
+
+.left_nav input {
+    border: none;
+    margin-left: 5px;
+    background-color: #ffffff;
+    border-radius: 50px;
+    padding: 7px 16px 9px 36px;
+    color: #606770;
+    font-size: 15px;
+    height: 40px;
+}
+
+.left_nav input:focus {
+    outline: none;
+}
+
+
+/* Start Midel NavPar*/
+
+.mid_nav {
+    display: flex;
+    background-color: white;
+    align-items: center;
+    border: 3px solid black;
+    color: rgb(83, 82, 82);
+    text-align: center;
+    width: auto;
+    height: 40px;
+    letter-spacing: 4px;
+    padding: 10px;
+    font-size: large;
+}
+
+
+/* Start rigt NavPar */
+
+.right_nav {
+    display: flex;
+    /* align-items: center; */
+}
+
+.right_nav i {
+    color: gray;
+    margin: 7px;
+}
+
+.right_nav i:hover {
+    color: rgba(0, 0, 0);
+}
+
+
+/*End NavPar*/
+
+
+/* Start Nav2 */
+
+.nav2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    height: 50px;
+}
+
+.nav2 a {
+    text-decoration: none;
+    margin: 15px;
+    color: black;
+}
+
+.nav2 a:hover {
+    color: violet;
+}
+
+.nav2 .fa-angle-down {
+    padding: 0;
+}
+
+
+/* End Nav2 */
+
+.head {
+    display: flex;
+    background-color: #f9f9f9;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+}
+
+.head p {
+    color: gray;
+    margin: 5px;
+}
+
+.head .c1 {
+    color: rgb(209, 46, 209);
+    margin-left: 80px;
+}
+
+.head .c2 {
+    color: black;
+    margin: 5px;
+}
+
+table {
+    width: 80%;
+    border-radius: 5px;
+    border-color: #f9f9f9;
+    margin: 50px 150px 0px;
+    text-align: center;
+}
+
+.but input {
+    width: 55px;
+    height: 40px;
+    text-align: center;
+    border-radius: 5px;
+    border-color: #ccc;
+}
+
+.but button {
+    width: 40px;
+    height: 40px;
+    border-color: violet;
+    font-size: large;
+    color: rgb(208, 37, 188);
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.but button:hover {
+    background-color: rgb(201, 49, 201);
+    transform: translate(0px, 3px);
+    color: white;
+}
+
+table img {
+    width: 150px;
+    height: auto;
+}
+
+.column1 {
+    width: 110px;
+    height: 150px;
+}
+
+.row2 {
+    height: px;
+}
+
+.column2 {
+    width: 160px;
+}
+
+.column3 {
+    width: 100px;
+}
+
+.column4 {
+    width: 200px;
+}
+
+.column5 {
+    width: 120px;
+}
+
+.column6 {
+    height: 80px;
+}
+
+.bu {
+    width: 40px;
+    height: 40px;
+    border-color: violet;
+    color: rgb(255, 255, 255);
+    background-color: rgb(233, 57, 233);
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.bu:hover {
+    background-color: rgb(201, 49, 201);
+    transform: translate(0px, 3px)
+}
+
+.bus {
+    display: flex;
+    padding-left: 150px;
+    justify-content: space-between;
+    box-shadow: 1px 1px 1px #ccc;
+    width: 100%;
+    padding-bottom: 150px;
+}
+
+.butt {
+    margin: 30px 0px;
+    width: 230px;
+    height: 40px;
+    border-radius: 3px;
+    border-color: rgb(150, 4, 150);
+    color: rgb(255, 255, 255);
+    background-color: rgb(150, 4, 150);
+    letter-spacing: 1px;
+    margin-right: 20px;
+}
+
+.butt:hover {
+    background-color: darkviolet;
+    transform: translate(0px, 3px)
+}
+
+.butt2 {
+    margin: 30px 0px;
+    width: 240px;
+    height: 40px;
+    border-radius: 3px;
+    border-color: rgb(150, 4, 150);
+    color: rgb(150, 4, 150);
+    background-color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+}
+
+.butt2:hover {
+    background-color: rgb(150, 4, 150);
+    transform: translate(0px, 3px);
+    color: white;
+}
+
+.h33 {
+    margin-right: 150px;
+    margin-top: 30px;
+    box-shadow: 0px 1px 3px #ccc;
+    padding: 10px 80px;
+}
+
+.p {
+    display: flex;
+    justify-content: space-between;
+}
+
+.p1 {
+    margin: 30px 165px 5px;
+}
+
+.p2 {
+    margin: 30px 10px 15px;
+}
+
+.butt3 {
+    margin: 30px 30px 0px;
+    width: 250px;
+    height: 40px;
+    border-radius: 3px;
+    border-color: rgb(150, 4, 150);
+    color: rgb(255, 255, 255);
+    background-color: rgb(150, 4, 150);
+    letter-spacing: 1px;
+    margin-right: 20px;
+}
+
+.butt3:hover {
+    background-color: darkviolet;
+    transform: translate(0px, 3px)
+}
+
+.cop {
+    display: flex;
+    flex-direction: column;
+    /* margin: 0px 150px; */
+}
+
+.h4 {
+    font-size: x-large;
+    margin-top: 30px;
+}
+
+.pr {
+    color: gray;
+    margin: 10px 0px;
+}
+
+.inp input {
+    width: 250px;
+    height: 35px;
+    border-radius: 5px;
+    border-color: #ccc;
+    padding: 0px 10px;
+}
+
+.butt4 {
+    margin: 30px 30px;
+    width: 180px;
+    height: 35px;
+    border-radius: 3px;
+    border-color: rgb(150, 4, 150);
+    color: rgb(255, 255, 255);
+    background-color: rgb(150, 4, 150);
+    letter-spacing: 1px;
+    margin-right: 20px;
+}
+
+.butt4:hover {
+    background-color: darkviolet;
+    transform: translate(0px, 3px)
+}
+
+
+/* start footer */
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 50px;
+    margin-bottom: 250px;
+    margin-top: 100px;
+}
+
+.footer p {
+    color: gray;
+    margin: 17px 0px;
+}
+
+.footer img {
+    width: 210px;
+    margin: 15px 0px;
+}
+
+.footer h4 {
+    color: rgb(209, 46, 209);
+}
+
+.footer .from {
+    margin: 17px 0px;
+}
+
+.from i {
+    color: rgb(150, 4, 150);
+    font-size: large;
+    padding: 0px 20px 0px 0px;
+}
+
+.from p {
+    color: rgb(47, 47, 47);
+}
+
+.from .num {
+    color: gray;
+}
+
+.footer .sub {
+    color: black;
+    font-size: large;
+    margin-top: 60px;
+}
+
+.footer .butt {
+    margin-top: 15px;
+    width: 80px;
+    height: 50px;
+    border-radius: 5px;
+    border-color: rgb(150, 4, 150);
+    color: white;
+    background-color: rgb(150, 4, 150);
+}
+
+.footer button:hover {
+    background-color: darkviolet;
+    transform: translate(0px, 3px)
+}
+
+.footer input {
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    border-color: rgb(226, 221, 221);
+    /* position: relative; */
+    color: gray;
+    padding: 10px;
+    font-size: large;
+}
+
+.foot p {
+    color: gray;
+    text-align: center;
+    margin-bottom: 80px;
+}

@@ -1,0 +1,380 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+/*Start NavPar*/
+
+.nav1 {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    height: 80px;
+    width: 100%;
+    box-shadow: 0px 1px 3px #ccc;
+    padding: 8px 50px 0px 50px;
+    /* position: sticky; */
+    top: 0;
+    z-index: 3;
+}
+
+
+/* Start left NavPar*/
+
+.left_nav {
+    display: flex;
+    position: relative;
+}
+
+.fa-search {
+    color: rgb(176, 172, 172);
+    position: absolute;
+    font-size: 15px;
+    left: 15px;
+    top: 12px;
+}
+
+.left_nav input {
+    border: none;
+    margin-left: 5px;
+    background-color: #ffffff;
+    border-radius: 50px;
+    padding: 7px 16px 9px 36px;
+    color: #606770;
+    font-size: 15px;
+    height: 40px;
+}
+
+.left_nav input:focus {
+    outline: none;
+}
+
+
+/* Start Midel NavPar*/
+
+.mid_nav {
+    display: flex;
+    background-color: white;
+    align-items: center;
+    border: 3px solid black;
+    color: rgb(83, 82, 82);
+    text-align: center;
+    width: auto;
+    height: 40px;
+    letter-spacing: 4px;
+    padding: 10px;
+    font-size: large;
+}
+
+
+/* Start rigt NavPar */
+
+.right_nav {
+    display: flex;
+    /* align-items: center; */
+}
+
+.right_nav i {
+    color: gray;
+    margin: 7px;
+}
+
+.right_nav i:hover {
+    color: rgba(0, 0, 0);
+}
+
+
+/*End NavPar*/
+
+
+/* Start Nav2 */
+
+.nav2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    height: 50px;
+}
+
+.nav2 a {
+    text-decoration: none;
+    margin: 15px;
+    color: black;
+}
+
+.nav2 .about a {
+    color: violet;
+}
+
+.nav2 a:hover {
+    color: violet;
+}
+
+.nav2 .fa-angle-down {
+    padding: 0;
+}
+
+
+/* End Nav2 */
+
+.head {
+    display: flex;
+    background-color: #f9f9f9;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+}
+
+.head p {
+    color: gray;
+    margin: 5px;
+}
+
+.head .c1 {
+    color: rgb(209, 46, 209);
+    margin-left: 80px;
+}
+
+.head .c2 {
+    color: black;
+    margin: 5px;
+}
+
+.sec5 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    box-shadow: 1px 1px 1px #ccc;
+    margin-top: 50px;
+    transition: all 0.05ms;
+}
+
+.sec5 h1 {
+    margin-top: 80px;
+    color: black;
+    font-size: x-large;
+    word-spacing: 2px;
+}
+
+.sec5 .p2 {
+    margin: 15px 0px;
+    line-height: 1.7;
+    color: rgb(182, 180, 180);
+}
+
+.sec5 img {
+    width: 580px;
+    height: auto;
+    margin: 0px 50px 100px 50px;
+}
+
+.sec5 .p3 {
+    margin-top: 40px;
+    color: rgb(222, 35, 222);
+    font-size: x-large;
+}
+
+.sec5 form {
+    display: flex;
+    flex-direction: row;
+}
+
+.sec5 .div {
+    margin: 15px 0px;
+    margin-right: 20px;
+}
+
+.but input {
+    width: 55px;
+    height: 40px;
+    text-align: center;
+    border-radius: 5px;
+    border-color: #ccc;
+}
+
+.but button {
+    width: 40px;
+    height: 40px;
+    border-color: violet;
+    font-size: large;
+    color: rgb(208, 37, 188);
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.but button:hover {
+    background-color: darkviolet;
+    transform: translate(0px, 3px)
+}
+
+.sec5 .butt {
+    margin: 80px 0px;
+    width: 140px;
+    height: 40px;
+    border-radius: 5px;
+    border-color: rgb(150, 4, 150);
+    color: white;
+    background-color: rgb(150, 4, 150);
+}
+
+.sec5 button:hover {
+    background-color: darkviolet;
+    transform: translate(0px, 3px)
+}
+
+.sec4 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    background-color: #f1f3f5;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    font-size: xx-large;
+    align-items: center;
+    padding: 100px 0px 50px 0px;
+    background-color: #f1f3f5;
+    background-size: cover;
+    height: 100px;
+}
+
+.header p {
+    margin: 20px;
+}
+
+.hr {
+    width: 3%;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.sec4 .ddsec4 {
+    border: 3px solid #f1f3f5;
+    box-shadow: 0px 1px 3px #ccc;
+    padding: 0px 0px 150px 0px;
+    text-align: center;
+    width: 350px;
+    height: 450px;
+    margin: 50px 15px 120px;
+    background-color: white;
+}
+
+.sec4 img {
+    width: 349px;
+}
+
+.sec4 h2 {
+    margin-top: 20px;
+    color: rgb(150, 4, 150);
+    font-size: larger;
+    font-weight: normal;
+}
+
+.sec4 p {
+    margin-top: 10px;
+    color: gray;
+}
+
+
+/* start section 5 */
+
+.header1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: xx-large;
+    align-items: center;
+    /* padding: 50px; */
+    margin: 70px;
+}
+
+
+/* start footer */
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 50px;
+    margin-bottom: 250px;
+    margin-top: 100px;
+}
+
+.footer p {
+    color: gray;
+    margin: 17px 0px;
+}
+
+.footer img {
+    width: 210px;
+    margin: 15px 0px;
+}
+
+.footer h4 {
+    color: rgb(209, 46, 209);
+}
+
+.footer .from {
+    margin: 17px 0px;
+}
+
+.from i {
+    color: rgb(150, 4, 150);
+    font-size: large;
+    padding: 0px 20px 0px 0px;
+}
+
+.from p {
+    color: rgb(47, 47, 47);
+}
+
+.from .num {
+    color: gray;
+}
+
+.footer .sub {
+    color: black;
+    font-size: large;
+    margin-top: 60px;
+}
+
+.footer .butt {
+    margin-top: 15px;
+    width: 80px;
+    height: 50px;
+    border-radius: 5px;
+    border-color: rgb(150, 4, 150);
+    color: white;
+    background-color: rgb(150, 4, 150);
+}
+
+.footer button:hover {
+    background-color: darkviolet;
+    transform: translate(0px, 3px)
+}
+
+.footer input {
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    border-color: rgb(226, 221, 221);
+    /* position: relative; */
+    color: gray;
+    padding: 10px;
+    font-size: large;
+}
+
+.foot p {
+    color: gray;
+    text-align: center;
+    margin-bottom: 80px;
+}

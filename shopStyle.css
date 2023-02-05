@@ -1,0 +1,535 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+/*Start NavPar*/
+
+.nav1 {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    height: 80px;
+    width: 100%;
+    box-shadow: 0px 1px 3px #ccc;
+    padding: 8px 50px 0px 50px;
+    /* position: sticky; */
+    top: 0;
+    z-index: 3;
+}
+
+
+/* Start left NavPar*/
+
+.left_nav {
+    display: flex;
+    position: relative;
+}
+
+.fa-search {
+    color: rgb(176, 172, 172);
+    position: absolute;
+    font-size: 15px;
+    left: 15px;
+    top: 12px;
+}
+
+.left_nav input {
+    border: none;
+    margin-left: 5px;
+    background-color: #ffffff;
+    border-radius: 50px;
+    padding: 7px 16px 9px 36px;
+    color: #606770;
+    font-size: 15px;
+    height: 40px;
+}
+
+.left_nav input:focus {
+    outline: none;
+}
+
+
+/* Start Midel NavPar*/
+
+.mid_nav {
+    display: flex;
+    background-color: white;
+    align-items: center;
+    border: 3px solid black;
+    color: rgb(83, 82, 82);
+    text-align: center;
+    width: auto;
+    height: 40px;
+    letter-spacing: 4px;
+    padding: 10px;
+    font-size: large;
+}
+
+
+/* Start rigt NavPar */
+
+.right_nav {
+    display: flex;
+    /* align-items: center; */
+}
+
+.right_nav i {
+    color: gray;
+    margin: 7px;
+}
+
+.right_nav i:hover {
+    color: rgba(0, 0, 0);
+}
+
+
+/*End NavPar*/
+
+
+/* Start Nav2 */
+
+.nav2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    height: 50px;
+}
+
+.nav2 a {
+    text-decoration: none;
+    margin: 15px;
+    color: black;
+}
+
+.nav2 .shop a {
+    color: violet;
+}
+
+.nav2 a:hover {
+    color: violet;
+}
+
+.nav2 .fa-angle-down {
+    padding: 0;
+}
+
+
+/* End Nav2 */
+
+.head {
+    display: flex;
+    background-color: #f9f9f9;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+}
+
+.head p {
+    color: gray;
+    margin: 5px;
+}
+
+.head .c1 {
+    color: rgb(209, 46, 209);
+    margin-left: 80px;
+}
+
+.head .c2 {
+    color: black;
+    margin: 5px;
+}
+
+.secAll {
+    display: flex;
+    margin: 70px;
+}
+
+.secAll .leftSide {
+    display: flex;
+    flex-direction: column;
+}
+
+.secAll .sbox {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.secAll .top_left_side {
+    box-shadow: 0px 1px 3px #ccc;
+    padding: 15px 30px;
+}
+
+.secAll .h {
+    color: rgb(229, 65, 229);
+    margin-right: 80px;
+}
+
+.secAll .h3 {
+    margin: 20px;
+}
+
+.secAll .bottom_left_side {
+    box-shadow: 0px 1px 3px #ccc;
+    padding: 15px 30px;
+    margin-top: 30px;
+}
+
+.bottom_left_side .p2 {
+    margin: 10px 0px;
+    color: gray;
+}
+
+.bottom_left_side .p1 {
+    margin: 30px 0px 10px 0px;
+}
+
+.bottom_left_side .sz {
+    margin: 50px 0px 15px 0px;
+}
+
+.bottom_left_side .form {
+    margin: 10px 0px 15px;
+}
+
+.bottom_left_side .colors {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.color .fa-circle {
+    color: red;
+    margin: 20px 10px 10px 0px;
+}
+
+.colorg .fa-circle {
+    color: green;
+    margin: 0px 10px 10px 0px;
+}
+
+.colorb .fa-circle {
+    color: blue;
+    margin: 0px 10px 10px 0px;
+}
+
+.colorp .fa-circle {
+    color: purple;
+    margin: 0px 10px 80px 0px;
+}
+
+.bottom_left_side .filt {
+    width: 200px;
+}
+
+.sec4 {
+    display: flex;
+    justify-content: center;
+    margin: 0px 20px 30px;
+    background-color: #ffffff;
+}
+
+.top-right-all {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* span select */
+
+.rightSelectt {
+    display: flex;
+}
+
+.dropdown {
+    width: 8rem;
+    position: relative;
+    margin: 5px 10px 10px;
+}
+
+.dropdown-select {
+    padding: .8rem;
+    border-radius: 4px;
+    background-color: #e3dfdf;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.dropdown-list {
+    border-radius: 4px;
+    border-color: #000000;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 53%;
+    right: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: opactity 0.2s linear, visibility 0.2s linear;
+}
+
+.dropdown:hover .dropdown-list {
+    opacity: 1;
+    visibility: visible;
+}
+
+.dropdown-list-item {
+    padding: 1rem;
+}
+
+.dropdown1 {
+    width: 10rem;
+    position: relative;
+    margin: 5px 10px 10px;
+}
+
+.dropdown-select1 {
+    padding: .8rem;
+    border-radius: 4px;
+    background-color: #e3dfdf;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.dropdown-list1 {
+    border-radius: 4px;
+    border-color: #000000;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 53%;
+    right: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: opactity 0.2s linear, visibility 0.2s linear;
+}
+
+.dropdown1:hover .dropdown-list1 {
+    opacity: 1;
+    visibility: visible;
+}
+
+.fa-caret-down {
+    font-size: small;
+}
+
+.dropdown-select:hover {
+    background-color: rgb(95, 94, 94);
+    color: white;
+}
+
+.dropdown:hover {
+    transform: translate(0px, 3px)
+}
+
+.dropdown1:hover {
+    transform: translate(0px, 3px)
+}
+
+.dropdown-select1:hover {
+    background-color: rgb(95, 94, 94);
+    color: white;
+}
+
+.dropdown-list-item:hover {
+    background-color: rgb(199, 198, 198);
+}
+
+
+/* span select end */
+
+.header1 {
+    display: flex;
+    font-size: x-large;
+    padding: 0px 0px 50px 0px;
+    background-color: #ffffff;
+    background-size: cover;
+    height: 100px;
+    margin-left: 20px;
+}
+
+.sec4 .ddsec4 {
+    border: 3px solid #f1f3f5;
+    box-shadow: 0px 1px 3px #ccc;
+    /* padding: 0px 0px 0px 0px; */
+    text-align: center;
+    width: 300px;
+    height: 400px;
+    margin: 0px 15px;
+    background-color: white;
+    text-decoration: none;
+}
+
+.sec4 img {
+    width: 299px;
+}
+
+.sec4 h2 {
+    margin-top: 20px;
+    color: rgb(150, 4, 150);
+    font-size: larger;
+    font-weight: normal;
+}
+
+.sec4 p {
+    margin-top: 10px;
+    color: gray;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    font-size: xx-large;
+    align-items: center;
+    padding: 100px 0px 50px 0px;
+    background-color: #ffffff;
+    background-size: cover;
+    height: 100px;
+}
+
+.header p {
+    margin: 20px;
+}
+
+.hr {
+    width: 5%;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+
+/* Start section 3 */
+
+.sec3 {
+    display: flex;
+    justify-content: center;
+    transition: all 0.01ms;
+    margin: 70px 0px;
+    box-shadow: 1px 1px 1px #ccc;
+    padding-bottom: 150px;
+}
+
+.sec3 .d3 {
+    display: flex;
+    align-items: end;
+}
+
+.sec3 img {
+    width: auto;
+    height: 500px;
+    padding: 20px;
+    position: relative;
+    z-index: -1;
+}
+
+.sec3 p {
+    position: absolute;
+    font-size: x-small;
+    color: rgb(255, 255, 255);
+    margin: 0px 40px 80px;
+}
+
+.sec3 h1 {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: xx-large;
+    font-weight: normal;
+    margin: 30px 40px 30px;
+}
+
+.sec3 .d3:hover {
+    transform: scale(1.1);
+}
+
+
+/* End section 3 */
+
+
+/* start footer */
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 50px;
+    margin-bottom: 250px;
+    margin-top: 100px;
+}
+
+.footer p {
+    color: gray;
+    margin: 17px 0px;
+}
+
+.footer img {
+    width: 210px;
+    margin: 15px 0px;
+}
+
+.footer h4 {
+    color: rgb(209, 46, 209);
+}
+
+.footer .from {
+    margin: 17px 0px;
+}
+
+.from i {
+    color: rgb(150, 4, 150);
+    font-size: large;
+    padding: 0px 20px 0px 0px;
+}
+
+.from p {
+    color: rgb(47, 47, 47);
+}
+
+.from .num {
+    color: gray;
+}
+
+.footer .sub {
+    color: black;
+    font-size: large;
+    margin-top: 60px;
+}
+
+.footer .butt {
+    margin-top: 15px;
+    width: 80px;
+    height: 50px;
+    border-radius: 5px;
+    border-color: rgb(150, 4, 150);
+    color: white;
+    background-color: rgb(150, 4, 150);
+}
+
+.footer button:hover {
+    background-color: darkviolet;
+    transform: translate(0px, 3px)
+}
+
+.footer input {
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    border-color: rgb(226, 221, 221);
+    /* position: relative; */
+    color: gray;
+    padding: 10px;
+    font-size: large;
+}
+
+.foot p {
+    color: gray;
+    text-align: center;
+    margin-bottom: 80px;
+}
